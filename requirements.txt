@@ -8,3 +8,4 @@ langchain_core
 langchain
 validators
 python-dotenv
+faiss-cpu
