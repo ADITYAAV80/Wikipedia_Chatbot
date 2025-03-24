@@ -1,0 +1,10 @@
+streamlit
+langchain_community
+langchain_text_splitters
+langchain_groq
+bs4
+langchain_openai
+langchain_core
+langchain
+validators
+python-dotenv
