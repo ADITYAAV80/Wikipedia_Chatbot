@@ -101,13 +101,13 @@ if st.session_state.store["retriever"] is not None:
     <context>
     {context}
     </context>
-"""
+    """
 
 
 
 
     final_prompt = ChatPromptTemplate.from_messages([
-        ("system",sysem_prompt),
+        ("system",system_prompt),
         MessagesPlaceholder(variable_name="stored_chat_history"),
         ("human","{input}")
     ])
